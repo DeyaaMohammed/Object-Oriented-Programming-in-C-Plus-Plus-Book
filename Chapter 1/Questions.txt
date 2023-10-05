@@ -1,0 +1,62 @@
+Questions
+
+Answers to these questions can be found in Appendix G. Note that throughout this
+book, multiple-choice questions can have more than one correct answer.
+
+1. Pascal, BASIC, and C are ___procedural___ languages, while C++ is an ___object oriented___ language.
+
+2. A widget is to the blueprint for a widget as an object is to
+[ ] a. a member function.
+[x] b. a class.
+[ ] c. an operator.
+[ ] d. a data item.
+
+3. The two major components of an object are ___data___ and functions that___act on the data___.
+
+4. In C++, a function contained within a class is called
+[x] a. a member function.
+[ ] b. an operator.
+[ ] c. a class function.
+[ ] d. a method.
+
+5. Protecting data from access by unauthorized functions is called ___data hiding___.
+
+6. Which of the following are good reasons to use an object-oriented language?
+[x] a. You can define your own data types.
+[ ] b. Program statements are simpler than in procedural languages.
+[ ]c. An OO program can be taught to correct its own errors.
+[x] d. It’s easier to conceptualize an OO program.
+
+7. ___Objects___ model entities in the real world more closely than do functions.
+
+8. True or false: A C++ program is similar to a C program except for the details of coding. (False)
+
+9. Bundling data and functions together is called ___encapsulation___.
+
+10. When a language has the capability to produce new data types, it is said to be
+[ ] a. reprehensible.
+[ ] b. encapsulated.
+[ ] c. overloaded.
+[x] d. extensible.
+
+11. True or false: You can easily tell, from any two lines of code, whether a program is written in C or C++. (False)
+
+12. The ability of a function or operator to act in different ways on different data types is called ___polymorphism___.
+
+13. A normal C++ operator that acts in special ways on newly defined data types is said to be
+[ ] a. glorified.
+[ ] b. encapsulated.
+[ ] c. classified.
+[x] d. overloaded..
+
+14. Memorizing the new terms used in C++ is
+[ ] a. critically important.
+[x] b. something you can return to later.
+[ ] c. the key to wealth and success.
+[ ] d. completely irrelevant.
+
+15. The Unified Modeling Language is
+[ ] a. a program that builds physical models.
+[x] b. a way to look at the organization of a program.
+[ ] c. the combination of C++ and FORTRAN.
+[x] d. helpful in developing software systems.
