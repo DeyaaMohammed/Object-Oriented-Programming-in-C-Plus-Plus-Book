@@ -1,0 +1,89 @@
+Answers to these questions can be found in Appendix G.
+
+1. Dividing a program into functions
+[ ] a. is the key to object-oriented programming.
+[x] b. makes the program easier to conceptualize.
+[x] c. may reduce the size of the program.
+[ ] d. makes the program run faster.
+
+2. A function name must be followed by ___parentheses___.
+
+3. A function body is delimited by ___braces { }___.
+
+4. Why is the main() function special?
+> It’s the first function executed when the program starts.
+
+5. A C++ instruction that tells the computer to do something is called a ___statement___.
+
+6. Write an example of a normal C++ comment and an example of an old-fashioned /*
+comment.
+//This is a comment
+/*This is
+a comment*/
+
+7. An expression
+[x] a. usually evaluates to a numerical value.
+[ ] b. indicates the emotional state of the program.
+[ ] c. always occurs outside a function.
+[x] d. may be part of a statement.
+
+8. Specify how many bytes are occupied by the following data types in a 32-bit system:
+a. Type int                          (4)
+b. Type long double                  (10)
+c. Type float                        (4)
+d. Type long                         (4)
+
+9. True or false: A variable of type char can hold the value 301. (False)
+
+10. What kind of program elements are the following?
+a. 12                    (integer constant)
+b. ‘a’                   (char constant)
+c. 4.28915               (float constant)
+d. JungleJim             (variable name)
+e. JungleJim()           (function name)
+
+11. Write statements that display on the screen
+a. the character ‘x’   (cout << 'x';)
+b. the name Jim        (cout << "jim";)
+c. the number 509      (cout << 509;)
+
+12. True or false: In an assignment statement, the value on the left of the equal sign is always equal to the value on the right. (False)
+
+13. Write a statement that displays the variable george in a field 10 characters wide.
+cout << setw(10) << george;
+
+14. What header file must you #include with your source file to use cout and cin?
+> IOSTREAM
+
+15. Write a statement that gets a numerical value from the keyboard and places it in the variable
+temp.
+Cin >> temp;
+
+16. What header file must you #include with your program to use setw?
+> IOMANIP
+
+17. Two exceptions to the rule that the compiler ignores whitespace are ___string constants___ and ___preprocessor directives___.
+
+18. True or false: It’s perfectly all right to use variables of different data types in the same arithmetic expression. (True)
+
+19. The expression 11%3 evaluates to ___2___.
+
+20. An arithmetic assignment operator combines the effect of what two operators?
+assignment (=) and arithmetic (like + and *).
+
+21. Write a statement that uses an arithmetic assignment operator to increase the value of the variable temp by 23. Write the same statement without the arithmetic assignment operator.
+temp += 23; 
+temp = temp + 23;
+
+22. The increment operator increases the value of a variable by how much?
+One
+
+23. Assuming var1 starts with the value 20, what will the following code fragment print out?
+cout << var1--;
+cout << ++var1;
+Answer: 2020
+
+24. In the examples we’ve seen so far, header files have been used for what purpose?
+To provide declarations and other data for library functions, overloaded operators, and objects.
+
+25. The actual code for library functions is contained in a ___library___ file.
