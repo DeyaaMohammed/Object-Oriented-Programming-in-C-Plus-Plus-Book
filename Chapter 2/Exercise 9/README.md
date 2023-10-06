@@ -4,9 +4,9 @@ If you have two fractions, a/b and c/d, their sum can be obtained from the formu
  a     c     a*d + b*c
 --- + --- = -----------
  b     d        b*d
- 
+ </pre>
 For example, 1/4 plus 2/3 is
-
+<pre>
  1     2     1*3 + 4*2     3 + 8      11
 --- + --- = ----------- = -------- = ----
  4     3        4*3          12       12
