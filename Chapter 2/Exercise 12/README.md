@@ -1,11 +1,13 @@
 # Excercise 12
-Write the inverse of Exercise 10, so that the user enters an amount in Great Britain's new decimal-pounds notation (pounds and pence), and the program converts it to the oldpounds-shillings-pence notation. 
+Write the inverse of Exercise 10, so that the user enters an amount in Great Britain's new decimal-pounds notation (pounds and pence), and the program converts it to the oldpounds-shillings-pence notation.\
 An example of interaction with the program might be
-Enter decimal pounds: 3.51
-Equivalent in old notation = £3.10.2.
 
-Make use of the fact that if you assign a floating-point value (say 12.34) to an integer variable, the decimal fraction (0.34) is lost; the integer value is simply 12. Use a cast to avoid a compiler warning. 
+    Enter decimal pounds: 3.51
+    Equivalent in old notation = £3.10.2.
+
+Make use of the fact that if you assign a floating-point value (say 12.34) to an integer variable, the decimal fraction (0.34) is lost; the integer value is simply 12. Use a cast to avoid a compiler warning.\
 You can use statements like
+
     float decpounds; // input from user (new-style pounds)
     int pounds; // old-style (integer) pounds
     float decfrac; // decimal fraction (smaller than 1.0)
