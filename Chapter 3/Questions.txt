@@ -1,0 +1,120 @@
+Questions
+1. A relational operator
+[ ] a. assigns one operand to another.
+[x] b. yields a Boolean result.
+[x] c. compares two operands.
+[ ]d. logically combines two operands.
+
+2. Write an expression that uses a relational operator to return true if the variable george is not equal to sally.
+Answer: george != sally
+
+3. Is –1 true or false? (True)
+
+4. Name and describe the usual purpose of three expressions in a for statement.
+The initialize expression initializes the loop variable, the test expression tests the loop variable, and the increment expression changes the loop variable.
+
+5. In a for loop with a multistatement loop body, semicolons should appear following
+[ ] a. the for statement itself.
+[ ] b. the closing brace in a multistatement loop body.
+[x] c. each statement within the loop body.
+[x] d. the test expression.
+
+6. True or false: The increment expression in a for loop can decrement the loop variable. (True)
+
+7. Write a for loop that displays the numbers from 100 to 110.
+for(int i=100; i<=110; i++) {cout << endl << i;}
+
+8. A block of code is delimited by ___braces (curly brackets)___.
+
+9. A variable defined within a block is visible
+[ ] a. from the point of definition onward in the program.
+[ ] b. from the point of definition onward in the function.
+[x] c. from the point of definition onward in the block.
+[ ] d. throughout the function.
+
+10. Write a while loop that displays the numbers from 100 to 110.
+int i = 100; 
+while( i <= 110 ){
+	cout << endl << i++;}
+
+11. True or false: Relational operators have a higher precedence than arithmetic operators. (False)
+
+12. How many times is the loop body executed in a do loop?
+Answer: at least once.
+
+13. Write a do loop that displays the numbers from 100 to 110.
+int i = 100;
+ do{ 
+	cout << endl << i++; 
+}while( i <= 110 );
+
+14. Write an if statement that prints Yes if a variable age is greater than 21.
+if(age > 21){
+	cout << “Yes”;}
+
+15. The library function exit() causes an exit from
+[ ] a. the loop in which it occurs.
+[ ] b. the block in which it occurs.
+[ ] c. the function in which it occurs.
+[x] d. the program in which it occurs.
+
+16. Write an if...else statement that displays Yes if a variable age is greater than 21, and displays No otherwise.
+if( age > 21 ){
+	cout << “Yes”;}
+else{
+	cout << “No”;}
+
+17. The getche() library function
+[x] a. returns a character when any key is pressed.
+[ ] b. returns a character when Enter is pressed.
+[x] c. displays a character on the screen when any key is pressed.
+[ ] d. does not display a character on the screen.
+
+18. What is the character obtained from cin when the user presses the Enter key?
+Answer: '\r'
+
+19. An else always matches the ___preceding___ if, unless the if is ___surrounded by braces___.
+
+20. The else...if construction is obtained from a nested if...else by ___reformatting___.
+
+21. Write a switch statement that prints Yes if a variable ch is ‘y’, prints No if ch is ‘n’, and prints Unknown response otherwise.
+switch(ch) 
+{ 
+	case 'y':
+		cout << "Yes"; 
+		break; 
+	case 'n': 
+		cout << "No"; 
+		break;
+	default: 
+		cout << "Unknown response"; 
+}
+
+22. Write a statement that uses a conditional operator to set ticket to 1 if speed is greater than 55, and to 0 otherwise.
+ticket = (speed > 55) ? 1 : 0;
+
+23. The && and || operators
+[ ] a. compare two numeric values.
+[ ] b. combine two numeric values.
+[ ] c. compare two Boolean values.
+[x] d. combine two Boolean values.
+
+24. Write an expression involving a logical operator that is true if limit is 55 and speed is greater than 55.
+limit == 55 && speed > 55
+
+25. Arrange in order of precedence (highest first) the following kinds of operators: logical, unary, arithmetic, assignment, relational, conditional.
+Answer: unary, arithmetic, relational, logical, conditional, assignment.
+
+26. The break statement causes an exit
+[ ] a. only from the innermost loop.
+[ ] b. only from the innermost switch.
+[ ] c. from all loops and switches.
+[x] d. from the innermost loop or switch.
+
+27. Executing the continue operator from within a loop causes control to go to ___the top of the loop___.
+
+28. The goto statement causes control to go to
+[ ] a. an operator.
+[x] b. a label.
+[ ] c. a variable.
+[ ] d. a function.
