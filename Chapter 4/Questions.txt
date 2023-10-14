@@ -1,0 +1,71 @@
+Questions
+1. A structure brings together a group of
+[ ] a. items of the same data type.
+[x] b. related data items.
+[ ] c. integers with user-defined names.
+[x] d. variables.
+
+2. True or false: A structure and a class use similar syntax. (True)
+
+3. The closing brace of a structure is followed by a ___semicolon___.
+
+4. Write a structure specification that includes three variables—all of type int—called hrs, mins, and secs. Call this structure time.
+struct time 
+{ 
+	int hrs; 
+	int mins;
+	int secs; 
+};
+
+5. True or false: A structure definition creates space in memory for a variable. (False)
+
+6. When accessing a structure member, the identifier to the left of the dot operator is the name of
+[ ] a. a structure member.
+[ ] b. a structure tag.
+[x] c. a structure variable.
+[ ] d. the keyword struct.
+
+7. Write a statement that sets the hrs member of the time2 structure variable equal to 11.
+time2.hrs = 11;
+
+8. If you have three variables defined to be of type struct time, and this structure contains three int members, how many bytes of memory do the variables use together?
+Answer: 18 in 16-bit systems (3 structures times 3 integers times 2 bytes), or 36 in 32-bit systems.
+
+9. Write a definition that initializes the members of time1—which is a variable of type struct time, as defined in Question 4—to hrs = 11, mins = 10, secs = 59.
+time time1 = { 11, 10, 59 };
+
+10. True or false: You can assign one structure variable to another, provided they are of the same type. (True)
+
+11. Write a statement that sets the variable temp equal to the paw member of the dogs member of the fido variable.
+temp = fido.dogs.paw;
+
+12. An enumeration brings together a group of
+[ ] a. items of different data types.
+[ ] b. related data variables.
+[x] c. integers with user-defined names.
+[ ] d. constant values.
+
+13. Write a statement that declares an enumeration called players with the values B1, B2, SS, B3, RF, CF, LF, P, and C.
+enum players { B1, B2, SS, B3, RF, CF, LF, P, C };
+
+14. Assuming the enum type players as declared in Question 13, define two variables joe and tom, and assign them the values LF and P, respectively.
+players joe, tom; 
+joe = LF; 
+tom = P;
+
+15. Assuming the statements of Questions 13 and 14, state whether each of the following statements is legal.
+a. joe = QB;     	     (No)
+b. tom = SS;                 (Yes)
+c. LF = tom;                 (No)
+d. difference = joe - tom;   (Yes)
+
+16. The first three enumerators of an enum type are normally represented by the values ___0___, ___1___, and ___2___.
+
+17. Write a statement that declares an enumeration called speeds with the enumerators obsolete, single, and album. Give these three names the integer values 78, 45, and 33.
+enum speeds { obsolete = 78, single = 45, album = 33 };
+
+18. State the reason that
+enum isWord{ NO, YES };
+is better than
+enum isWord{ YES, NO };
+Answer: because false should be represented by 0.
