@@ -1,0 +1,118 @@
+Questions
+1. A function’s single most important role is to
+[ ] a. give a name to a block of code.
+[ ] b. reduce program size.
+[ ] c. accept arguments and provide a return value.
+[x] d. help organize a program into conceptual units.
+
+2. A function itself is called the function ___definition___.
+
+3. Write a function called foo() that displays the word foo.
+void foo(){ 
+	cout << “foo”;
+}
+
+4. A one-statement description of a function is referred to as a function ___declaration___ or a ___prototype___.
+
+5. The statements that carry out the work of the function constitute the function ___body___.
+
+6. A program statement that invokes a function is a function ___call___.
+
+7. The first line of a function definition is referred to as the ___declarator___.
+
+8. A function argument is
+[ ] a. a variable in the function that receives a value from the calling program.
+[ ] b. a way that functions resist accepting the calling program’s values.
+[x] c. a value sent to the function by the calling program.
+[ ] d. a value returned by the function to the calling program.
+
+9. True or false: When arguments are passed by value, the function works with the original arguments in the calling program. (False)
+
+10. What is the purpose of using argument names in a function declaration?
+Answer: To clarify the purpose of the arguments.
+
+11. Which of the following can legitimately be passed to a function?
+[x] a. A constant
+[x] b. A variable
+[x] c. A structure
+[ ] d. A header file
+
+12. What is the significance of empty parentheses in a function declaration?
+Answer: Empty parentheses mean the function takes no arguments.
+
+
+13. How many values can be returned from a function?
+Answer: One.
+
+14. True or false: When a function returns a value, the entire function call can appear on the right side of the equal sign and be assigned to another variable. (True)
+
+15. Where is a function’s return type specified?
+Answer: At the beginning of the declaration and declarator.
+
+16. A function that doesn’t return anything has return type ___void___.
+
+17. Here’s a function:
+int times2(int a){
+	return (a * 2);
+}
+
+Write a main() program that includes everything necessary to call this function.
+int main(){
+ 	int times2(int); 
+	alpha = times2(37);
+	return 0; 
+}
+
+
+
+
+18. When an argument is passed by reference
+[ ] a. a variable is created in the function to hold the argument’s value.
+[ ] b. the function cannot access the argument’s value.
+[ ] c. a temporary variable is created in the calling program to hold the argument’s value.
+[x] d. the function accesses the argument’s original value in the calling program.
+
+19. What is a principal reason for passing arguments by reference?
+Answer: To modify the original argument.
+
+20. Overloaded functions
+[x] a. are a group of functions with the same name.
+[ ] b. all have the same number and types of arguments.
+[x] c. make life simpler for programmers.
+[ ] d. may fail unexpectedly due to stress.
+
+21. Write declarations for two overloaded functions named bar(). They both return type int. The first takes one argument of type char, and the second takes two arguments of type char. If this is impossible, say why.
+int bar(char); 
+int bar(char, char);
+
+22. In general, an inline function executes ___faster___ than a normal function, but requires ___more___ memory.
+
+23. Write the declarator for an inline function named foobar() that takes one argument of type float and returns type float.
+inline float foobar(float fvar)
+
+24. A default argument has a value that
+[x] a. may be supplied by the calling program.
+[x] b. may be supplied by the function.
+[ ] c. must have a constant value.
+[ ] d. must have a variable value.
+
+25. Write a declaration for a function called blyth() that takes two arguments and returns type char. The first argument is type int, and the second is type float with a default value of 3.14159.
+char blyth(int, float=3.14159);
+
+26. Scope and storage class are concerned with the ___visibility___ and ___lifetime___ of a variable.
+
+27. What functions can access a global variable that appears in the same file with them?
+Answer: Those functions defined following the variable definition.
+
+
+28. What functions can access a local variable?
+Answer: The function in which it is defined.
+
+29. A static local variable is used to
+[ ] a. make a variable visible to several functions.
+[x] b. make a variable visible to only one function.
+[ ] c. conserve memory when a function is not executing.
+[x] d. retain a value when a function is not executing.
+
+30. In what unusual place can you use a function call when a function returns a value by reference?
+Answer: On the left side of the equal sign.
