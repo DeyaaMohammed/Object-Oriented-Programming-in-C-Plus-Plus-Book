@@ -1,0 +1,90 @@
+Questions
+1. What is the purpose of a class definition?
+Answer: A class declaration describes how objects of a class will look when they are created.
+
+2. A ___class___ has the same relation to an ___object___ that a basic data type has to a variable of that type.
+
+3. In a class definition, data or functions designated private are accessible
+[ ] a. to any function in the program.
+[ ] b. only if you know the password.
+[x] c. to member functions of that class.
+[ ] d. only to public members of the class.
+
+4. Write a class definition that creates a class called leverage with one private data member, crowbar, of type int and one public function whose declaration is void pry().
+class leverage 
+{ 
+	private: 
+		int crowbar; 
+	public: 
+		void pry(); 
+};
+
+5. True or false: Data items in a class must be private. (False)
+
+6. Write a statement that defines an object called lever1 of the leverage class described in Question 4.
+leverage lever1;
+
+7. The dot operator (or class member access operator) connects the following two entities (reading from left to right):
+[ ] a. A class member and a class object
+[ ] b. A class object and a class
+[ ] c. A class and a member of that class
+[x] d. A class object and a member of that class
+
+8. Write a statement that executes the pry() function in the lever1 object, as described in Questions 4 and 6.
+lever1.pry();
+
+9. Member functions defined inside a class definition are ___inline (also private)___ by default.
+
+10. Write a member function called getcrow() for the leverage class described in Question 4. This function should return the value of the crowbar data. Assume the function is defined within the class definition.
+int getcrow(){ 
+	return crowbar; 
+}
+
+11. A constructor is executed automatically when an object is ___defined___.
+
+12. A constructor’s name is the same as ___the class of which it is a member___.
+
+13. Write a constructor that initializes to 0 the crowbar data, a member of the leverage class described in Question 4. Assume that the constructor is defined within the class definition.
+leverage() 
+ { crowbar = 0; }
+
+14. True or false: In a class you can have more than one constructor with the same name. (True)
+
+15. A member function can always access the data
+[x] a. in the object of which it is a member.
+[ ] b. in the class of which it is a member.
+[ ] c. in any object of the class of which it is a member.
+[ ] d. in the public part of its class.
+
+16. Assume that the member function getcrow() described in Question 10 is defined outside the class definition. Write the declaration that goes inside the class definition. 
+int getcrow();
+
+17. Write a revised version of the getcrow() member function from Question 10 that is defined outside the class definition.
+int leverage::getcrow() 
+ { return crowbar; }
+
+18. The only technical difference between structures and classes in C++ is that ___member functions and data are, by default, public in structures but private in classes___.
+
+19. If three objects of a class are defined, how many copies of that class’s data items are stored in memory? How many copies of its member functions?
+Answer: three, one.
+
+20. Sending a message to an object is the same as ___calling one of its member functions___.
+
+21. Classes are useful because they
+[ ] a. are removed from memory when not in use.
+[x] b. permit data to be hidden from other classes.
+[x] c. bring together all aspects of an entity in one place.
+[x] d. can closely model objects in the real world.
+
+22. True or false: There is a simple but precise methodology for dividing a real-world programming problem into classes. (False)
+
+23. For the object for which it was called, a const member function
+[ ] a. can modify both const and non-const member data.
+[ ] b. can modify only const member data.
+[ ] c. can modify only non-const member data.
+[x] d. can modify neither const nor non-const member data.
+
+24. True or false: If you declare a const object, it can only be used with const member functions. (True)
+
+25. Write a declaration (not a definition) for a const void function called aFunc() that takes one const argument called jerry of type float.
+void aFunc(const float jerry) const;
