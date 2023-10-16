@@ -1,0 +1,108 @@
+Questions
+1. An array element is accessed using
+[ ] a. a first-in-first-out approach.
+[ ] b. the dot operator.
+[ ] c. a member name.
+[x] d. an index number.
+
+2. All the elements in an array must be the ___same___ data type.
+
+3. Write a statement that defines a one-dimensional array called doubleArray of type double that holds 100 elements.
+double doubleArray[100];
+
+4. The elements of a 10-element array are numbered from ___0___ to ___9___.
+
+5. Write a statement that takes element j of array doubleArray and writes it to cout with the insertion operator.
+cout << doubleArray[j];
+
+6. Element doubleArray[7] is which element of the array?
+[ ] a. The sixth
+[ ] b. The seventh
+[x] c. The eighth
+[ ] d. Impossible to tell
+
+7. Write a statement that defines an array coins of type int and initializes it to the values of the penny, nickel, dime, quarter, half-dollar, and dollar.
+int coins[] = { 1, 5, 10, 25, 50, 100 };
+
+8. When a multidimensional array is accessed, each array index is
+[ ] a. separated by commas.
+[ ] b. surrounded by brackets and separated by commas.
+[ ] c. separated by commas and surrounded by brackets.
+[ ] d. surrounded by brackets.
+
+9. Write an expression that accesses element 4 in subarray 2 in a two-dimensional array called twoD.
+twoD[2][4]
+
+10. True or false: In C++ there can be an array of four dimensions. (True)
+
+11. For a two-dimensional array of type float, called flarr, write a statement that declares the array and initializes the first subarray to 52, 27, 83; the second to 94, 73, 49; and the third to 3, 6, 1.
+float flarr[3][3] = {{52,27,83}, {94,73,49}, {3,6,1}};
+
+12. An array name, used in the source file, represents the ___memory address___ of the array.
+
+13. When an array name is passed to a function, the function
+[x] a. accesses exactly the same array as the calling program.
+[ ] b. accesses a copy of the array passed by the program.
+[ ] c. refers to the array using the same name as that used by the calling program.
+[x] d. refers to the array using a different name than that used by the calling program.
+
+14. Tell what this statement defines:
+employee emplist[1000];
+Answer: an array with 1000 elements of structure or class employee.
+
+15. Write an expression that accesses a structure member called salary in a structure variable that is the 17th element in an array called emplist.
+emplist[16].salary
+
+16. In a stack, the data item placed on the stack first is
+[ ] a. not given an index number.
+[ ] b. given the index number 0.
+[ ] c. the first data item to be removed.
+[x] d. the last data item to be removed.
+
+17. Write a statement that defines an array called manybirds that holds 50 objects of type bird.
+bird manybirds[50];
+
+18. True or false: The compiler will complain if you try to access array element 14 in a 10-element array. (False)
+
+19. Write a statement that executes the member function cheep() in an object of class bird that is the 27th element in the array manybirds.
+manybirds[26].cheep();
+
+20. A string in C++ is an ___array___ of type ___char___.
+
+21. Write a statement that defines a string variable called city that can hold a string of up to 20 characters (this is slightly tricky).
+char city[21] (An extra byte is needed for the null character.)
+
+22. Write a statement that defines a string constant, called dextrose, that has the value “C6H12O6-H2O”.
+char dextrose[] = “C6H12O6-H2O”
+
+23. True or false: The extraction operator (>>) stops reading a string when it encounters a space. (True)
+
+24. You can read input that consists of multiple lines of text using
+[ ] a. the normal cout << combination.
+[ ] b. the cin.get() function with one argument.
+[ ] c. the cin.get() function with two arguments.
+[x] d. the cin.get() function with three arguments.
+
+25. Write a statement that uses a string library function to copy the string name to the string blank.
+strcpy(blank, name);
+
+26. Write the declaration for a class called dog that contains two data members: a string called breed and an int called age. (Don’t include any member functions.)
+class dog{ 
+	private: 
+		char breed[80]; 
+		int age; 
+};
+
+27. True or false: You should prefer C-strings to the Standard C++ string class in new programs. (False)
+
+28. Objects of the string class
+[ ] a. are zero-terminated.
+[x] b. can be copied with the assignment operator.
+[x] c. do not require memory management.
+[ ] d. have no member functions.
+
+29. Write a statement that finds where the string “cat” occurs in the string s1.
+int n = s1.find("cat");
+
+30. Write a statement that inserts the string “cat” into string s1 at position 12.
+s1.insert(12, "cat");
